@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="clock.css">
 </head>
 <body>
-    <h1>Current Time in Different Time Zones</h1>
+    <h1>GEST Support Zone</h1>
     <div class="timezone-row">
         <div class="timezone">
             <h2>IST (India Standard Time)</h2>
@@ -20,9 +20,12 @@
                         <div class="center-dot"></div>
                     </div>
                 </div>
-                <div id="ist"></div>
+                <div class="datetime">
+                    <div class="date" id="ist-date"></div>
+                    <div class="time" id="ist-time"></div>
+                </div>
             </div>
-            <div class="gmt-label">GMT+5:30</div>
+            <div class="utc-label">UTC+5:30</div>
         </div>
         <div class="timezone">
             <h2>EST (Eastern Standard Time)</h2>
@@ -35,9 +38,12 @@
                         <div class="center-dot"></div>
                     </div>
                 </div>
-                <div id="est"></div>
+                <div class="datetime">
+                    <div class="date" id="est-date"></div>
+                    <div class="time" id="est-time"></div>
+                </div>
             </div>
-            <div class="gmt-label">GMT-5:00</div>
+            <div class="utc-label">UTC-5:00</div>
         </div>
     </div>
     <div class="timezone-row">
@@ -52,9 +58,12 @@
                         <div class="center-dot"></div>
                     </div>
                 </div>
-                <div id="mdt"></div>
+                <div class="datetime">
+                    <div class="date" id="mdt-date"></div>
+                    <div class="time" id="mdt-time"></div>
+                </div>
             </div>
-            <div class="gmt-label">GMT-6:00</div>
+            <div class="utc-label">UTC-6:00</div>
         </div>
         <div class="timezone">
             <h2>Philippines Time (PHT)</h2>
@@ -67,9 +76,12 @@
                         <div class="center-dot"></div>
                     </div>
                 </div>
-                <div id="pht"></div>
+                <div class="datetime">
+                    <div class="date" id="pht-date"></div>
+                    <div class="time" id="pht-time"></div>
+                </div>
             </div>
-            <div class="gmt-label">GMT+8:00</div>
+            <div class="utc-label">UTC+8:00</div>
         </div>
     </div>
     <script src="script.js"></script>
